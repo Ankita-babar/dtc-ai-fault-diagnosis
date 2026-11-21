@@ -1,0 +1,9 @@
+task,model,accuracy,macro_precision,macro_recall,macro_f1,accuracy_std,macro_f1_std
+severity,Majority baseline,0.485,0.171,0.328,0.222,0.028,0.004
+severity,Logistic Regression,0.812,0.789,0.77,0.777,0.029,0.034
+severity,Linear SVM,0.82,0.823,0.773,0.791,0.027,0.031
+severity,Random Forest,0.704,0.689,0.662,0.673,0.033,0.028
+maintenance_group,Majority baseline,0.108,0.005,0.038,0.009,0.019,0.001
+maintenance_group,Logistic Regression,0.766,0.778,0.739,0.742,0.023,0.047
+maintenance_group,Linear SVM,0.776,0.774,0.752,0.749,0.02,0.047
+maintenance_group,Random Forest,0.705,0.704,0.691,0.683,0.023,0.037

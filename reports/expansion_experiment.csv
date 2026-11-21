@@ -1,0 +1,13 @@
+task,system,accuracy,macro_precision,macro_recall,macro_f1,accuracy_std,macro_f1_std
+severity,"A  LR gold-only, text (previous)",0.812,0.789,0.77,0.777,0.029,0.034
+severity,"B  LR gold+silver, text",0.824,0.826,0.839,0.828,0.018,0.021
+severity,"C  LR gold+silver, text+code",0.822,0.804,0.839,0.815,0.028,0.027
+severity,"D  LR gold+silver, code only (no description)",0.646,0.614,0.656,0.59,0.03,0.025
+severity,"E  LR gold-only, code only",0.687,0.635,0.675,0.625,0.03,0.026
+severity,F  rules only (no ML),0.854,0.838,0.901,0.85,0.012,0.012
+maintenance_group,"A  LR gold-only, text (previous)",0.766,0.778,0.739,0.742,0.023,0.047
+maintenance_group,"B  LR gold+silver, text",0.932,0.936,0.92,0.918,0.006,0.021
+maintenance_group,"C  LR gold+silver, text+code",0.937,0.926,0.93,0.92,0.008,0.024
+maintenance_group,"D  LR gold+silver, code only (no description)",0.565,0.476,0.565,0.483,0.009,0.016
+maintenance_group,"E  LR gold-only, code only",0.533,0.48,0.545,0.484,0.029,0.023
+maintenance_group,F  rules only (no ML),0.981,0.982,0.993,0.985,0.0,0.0
